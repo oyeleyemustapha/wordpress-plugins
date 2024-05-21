@@ -1,8 +1,8 @@
 <?php 
 
-define("MAILCHIMP_API_KEY", "4b69a285ec7f41441fcf867ee6314157-us14");
-define("MAILCHIMP_SERVER_PREFIX", "us14");
-define("MAILCHIMP_MAILING_LIST_ID", "265ef842ff");
+define("MAILCHIMP_API_KEY", "");
+define("MAILCHIMP_SERVER_PREFIX", "");
+define("MAILCHIMP_MAILING_LIST_ID", "");
 
 function enqueue_my_scripts() {
     wp_enqueue_style('punch-mailchimp-subscription', plugin_dir_url(__FILE__).'css/custom.css');
